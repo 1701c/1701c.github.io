@@ -4,6 +4,12 @@ h1{
     font-weight: bold;
 }
 
+h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 p{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -16,14 +22,37 @@ p{
     text-decoration: none;
 }
 
+.portfolioBox{
+    width: 280px;
+    height: 200px;
+    float: left;
+    margin: 0px 40px 50px 0px;
+    position: relative;
+}
+
+.portfolioTitle{
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+.portfolioLink{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 body{
     margin: 0px;
     background-color: #dddddd;
+    padding-bottom: 60px;
 }
 
 header{
     background-color: #ffffff;
-    
 }
 
 footer{
@@ -63,10 +92,10 @@ footer{
     border-color: #cccccc;
 }
 
-#aboutMe{
+#contentBox{
     width: 900px;
     margin: auto;
-    padding: 20px 35px;
+    padding: 20px 30px;
     background-color: #ffffff;
     border-style: solid;
     border-width: thin;
