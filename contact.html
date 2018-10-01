@@ -30,7 +30,15 @@
             <div id="sectionTitle">
                 <h1>Contact</h1>
             </div>
-            <p>ADD CONTACT FORM</p>
+            
+            <!-- form goes nowhere -->
+            <form action="./placeholder.php">
+                <p>Name <input type="text" name="name" class="contactForm" value="John Smith" onfocus="this.value=''; this.onfocus=null;"></p>
+                <p>Email <input type="text" name="email" class="contactForm" value="example@gmail.com" onfocus="this.value=''; this.onfocus=null;"></p>
+            
+            <p>Message
+            <textarea id="subject" name="message" class="contactForm tallContactForm"></textarea>
+            <input type="submit" value="Submit" class="button"></form>
         </div>
     </div>
     
