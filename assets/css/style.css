@@ -69,11 +69,16 @@ footer{
     text-align: center;
 }
 
+.portfolioTitle a:hover{
+    color: blue;
+}
+
 .portfolioLink{
     text-decoration: none;
     color: #ffffff;
     position: relative;
     top: 20px;
+    
 }
 
 .contactForm{
@@ -142,9 +147,18 @@ footer{
     margin: 0px 0px 25px;
 }
 
-#headshot{
+#headShotBox{
+    color: black;
     float: left;
+    width: 280px;
     margin: 0px 25px 25px 0px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.photoCitation{
+    /*text-decoration: none;*/
+    color: black;
 }
 
 .clearfix::after {
