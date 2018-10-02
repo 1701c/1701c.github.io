@@ -34,6 +34,27 @@ header{
     margin: 0 auto;
 }
 
+#name{
+    background-color: #4aaaa5;
+    float: left;
+    color: white;
+    padding: 30px;
+}
+
+.menuButtons{
+    color: #777777;
+    text-decoration: none;
+}
+
+#menuBar{
+    float: right;
+    padding: 30px 0px 0px;
+}
+
+#menuBar a:hover{
+    color: black;
+}
+
 footer{
     width: 100%;
     text-align: center;
@@ -44,80 +65,6 @@ footer{
     border-top: 8px solid #4aaaa5;
     color: #bbbbbb;
     font-size: 14px;
-}
-
-.menuButtons{
-    color: #777777;
-    text-decoration: none;
-}
-
-.portfolioBox{
-    width: 280px;
-    height: 200px;
-    float: left;
-    margin: 0px 40px 60px 0px;
-    position: relative;
-}
-
-.portfolioTitle{
-    width: 280px;
-    height: 60px;
-    position: absolute;
-    bottom: 10px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-}
-
-.portfolioTitle a:hover{
-    color: blue;
-}
-
-.portfolioLink{
-    text-decoration: none;
-    color: #ffffff;
-    position: relative;
-    top: 20px;
-    
-}
-
-.contactForm{
-    width: 878px;
-    font-size: 14px;
-    padding: 10px;
-    color: #777777;
-    margin-bottom: 10px;
-}
-
-.tallContactForm{
-    height: 300px;
-    width: 880px;
-    border-color:#cccccc;
-}
-
-.button{
-    background-color: #4aaaa5;
-    border: none;
-    color: #ffffff;
-    padding: 12px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 0px;
-    cursor: pointer;
-}
-
-#menuBar{
-    float: right;
-    padding: 30px 0px 0px;
-}
-
-#name{
-    background-color: #4aaaa5;
-    float: left;
-    color: white;
-    padding: 30px;
 }
 
 #content{
@@ -147,22 +94,86 @@ footer{
     margin: 0px 0px 25px;
 }
 
-#headShotBox{
-    color: black;
-    float: left;
-    width: 280px;
-    margin: 0px 25px 25px 0px;
-    font-size: 12px;
-    text-align: right;
-}
-
-.photoCitation{
-    /*text-decoration: none;*/
-    color: black;
-}
-
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+}
+
+/* about page */
+
+.photoWithCitation{
+    color: black;
+    margin: 0px 25px 25px 0px;
+    font-size: 12px;
+    text-align: right;
+    float: left;
+}
+
+.photoCitation{
+    color: black;
+}
+
+/* portfolio page */
+
+.portfolioBox{
+    width: 280px;
+    height: 200px;
+    float: left;
+    margin: 0px 40px 50px 0px;
+    position: relative;
+}
+
+.portfolioTitle{
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+.portfolioTitle a:hover{
+    color: black;
+}
+
+.portfolioLink{
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    top: 20px;
+}
+
+/* contact page */
+
+.contactForm{
+    width: 878px;
+    font-size: 14px;
+    padding: 10px;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+.tallContactForm{
+    height: 300px;
+    width: 880px;
+    border-color:#cccccc;
+}
+
+.button{
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0px;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: black;
 }
