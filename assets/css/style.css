@@ -26,7 +26,7 @@ p{
     width: 280px;
     height: 200px;
     float: left;
-    margin: 0px 40px 50px 0px;
+    margin: 0px 40px 60px 0px;
     position: relative;
 }
 
@@ -43,6 +43,8 @@ p{
 .portfolioLink{
     text-decoration: none;
     color: #ffffff;
+    position: relative;
+    top: 20px;
 }
 
 body{
@@ -70,15 +72,18 @@ footer{
 }
 
 .contactForm{
-    width: 880px;
+    width: 878px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 14px;
     padding: 10px;
     color: #777777;
+    border-width: 2;
+    margin-bottom: 10px;
 }
 
 .tallContactForm{
     height: 300px;
+    width: 880px;
 }
 
 .button{
@@ -101,13 +106,14 @@ footer{
 
 #menuBar{
     float: right;
+    padding: 25px 0px;
 }
 
 #name{
     background-color: #4aaaa5;
     float: left;
     color: white;
-    padding: 5px 25px;
+    padding: 25px 25px;
 }
 
 #content{
@@ -133,6 +139,7 @@ footer{
     border-style: solid;
     border-width: 0px 0px 3px;
     border-color: #cccccc;
+    padding: 0px 0px 25px;
     margin: 0px 0px 25px;
 }
 
