@@ -7,13 +7,13 @@ body{
 }
 
 h1{
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
     font-size: 28px;
     font-weight: bold;
 }
 
 h2{
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
     font-size: 20px;
     font-weight: bold;
 }
@@ -81,7 +81,6 @@ footer{
     font-size: 14px;
     padding: 10px;
     color: #777777;
-    border-width: 2;
     margin-bottom: 10px;
 }
 
