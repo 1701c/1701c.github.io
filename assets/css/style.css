@@ -123,13 +123,14 @@ footer{
 .photoWithCitation{
   color: black;
   margin: 0px 25px 15px 0px;
-  font-size: 11px;
   text-align: right;
   float: left;
+  font-size: 12px;
 }
 
 .photoCitation{
   color: black;
+  /* font-size: 12px; */
 }
 
 /* portfolio page */
