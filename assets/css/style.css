@@ -25,6 +25,14 @@ p{
   margin-bottom: 20px;
 }
 
+hr{
+  color: #cccccc;
+  background-color: #cccccc;
+  height: 3px;
+  border-width: 0px;
+  margin: 5px 0px 25px;
+}
+
 header{
   background-color: #ffffff;
   border-style: solid;
@@ -89,19 +97,19 @@ footer{
 #sectionTitle{
   color: #4aaaa5;
   border-style: solid;
-  border-width: 0px 0px 3px;
-  border-color: #cccccc;
-  padding: 0px 0px 25px;
-  margin: 0px 0px 25px;
+  float: left;
+}
+
+#iconBlock{
+  float: right;
 }
 
 .socialIcon{
-  float: right;
-  position: relative;
-  top: -40px;
-  right: -6px;
   width: 47px;
   margin: 0px 6px;
+  top: -15px;
+  right: -6px;
+  position: relative;
 }
 
 .clearfix::after {
